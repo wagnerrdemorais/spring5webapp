@@ -30,6 +30,10 @@ public class Book {
         this.isbn = isbn;
     }
 
+    public Long getId() {
+        return id;
+    }
+
     public Publisher getPublisher() {
         return publisher;
     }
@@ -68,7 +72,6 @@ public class Book {
                 "id=" + id +
                 ", title='" + title + '\'' +
                 ", isbn='" + isbn + '\'' +
-                ", authors=" + authors +
                 '}';
     }
 
